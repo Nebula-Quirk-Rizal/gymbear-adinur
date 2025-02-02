@@ -15,9 +15,9 @@
     <title>GYM BEAR</title>
   </head>
   <body>
-    <section class="mx-4">
+    <section class="mx-4" id="hero">
       <nav
-        class="px-10 py-6 justify-between items-center bg-white shadow-lg w-screen fixed top-0 hidden lg:flex"
+        class="px-10 py-6 justify-between items-center bg-white shadow-lg w-screen fixed top-0 hidden lg:flex z-10"
       >
         <p class="logo font-bold font-bebas text-base">BEAR GYM</p>
         <ul class="flex gap-5">
@@ -132,7 +132,7 @@
       </div>
     </section>
 
-    <section class="lg:mx-10">
+    <section class="lg:mx-10" id="produk">
       <div class="text-wrap mb-10 px-4 lg:px-0">
         <h1 class="text-4xl lg:text-5xl font-black text-black pt-10">
           DAPATKAN PRODUK UNGGULAN KAMI
@@ -262,5 +262,8 @@
     <p class="w-full p-4 text-center bg-black text-white mt-56">
       Punya Adinur Kelas 12 TKJ 1
     </p>
+    <script src="https://unpkg.com/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+    <script src="scrollTrigger.js"></script>
   </body>
 </html>
