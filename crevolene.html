@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Crevolene</title>
+  </head>
+  <body>
+    <section class="w-screen">
+      <!-- header -->
+      <div class="flex flex-col md:grid grid-cols-2 md:gap-10">
+        <div class="top-section h-full">
+          <img
+            src="img/crevoline.webp"
+            class="w-full h-full object-cover object-center"
+            alt=""
+          />
+        </div>
+        <div
+          class="bottom-section h-fit lg:h-full px-4 pt-10 md:pr-10 md:pb-10 lg:flex lg:flex-col lg:justify-center"
+        >
+          <a href="index.html">
+            <div
+              class="home-button fixed bottom-10 right-6 bg-yellow-600 rounded-full p-4 z-10"
+            >
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik00IDE5di05cTAtLjQ3NS4yMTMtLjl0LjU4Ny0uN2w2LTQuNXEuNTI1LS40IDEuMi0uNHQxLjIuNGw2IDQuNXEuMzc1LjI3NS41ODguN1QyMCAxMHY5cTAgLjgyNS0uNTg4IDEuNDEzVDE4IDIxaC0zcS0uNDI1IDAtLjcxMi0uMjg4VDE0IDIwdi01cTAtLjQyNS0uMjg4LS43MTJUMTMgMTRoLTJxLS40MjUgMC0uNzEyLjI4OFQxMCAxNXY1cTAgLjQyNS0uMjg4LjcxM1Q5IDIxSDZxLS44MjUgMC0xLjQxMi0uNTg3VDQgMTkiLz48L3N2Zz4="
+                alt=""
+              />
+            </div>
+          </a>
+
+          <p class="text-base text-gray-500 font-bebas pb-1">Evolene</p>
+          <p class="text-3xl md:text-6xl font-bebas font-bold pb-4 uppercase">
+            CREVOLENE
+          </p>
+          <div class="deskripsi bg-gray-300 p-6 rounded-lg pt-6 pl-10">
+            <ol class="list-decimal flex flex-col gap-4">
+              <li>
+                <p>
+                  Meningkatkan energi: Creatine membantu meningkatkan energi dan
+                  mengurangi kelelahan.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Meningkatkan konsentrasi: Creatine membantu meningkatkan
+                  konsentrasi dan fokus.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Membantu mengurangi cedera: Creatine membantu mengurangi
+                  risiko cedera otot dan sendi.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Meningkatkan kualitas tidur: Creatine membantu
+                  meningkatkan kualitas tidur.
+                </p>
+              </li>
+            </ol>
+          </div>
+          <div class="deskripsi-wrap border-b border-gray-800 py-10">
+            <p class="font-bebas font-semibold text-black text-sm mb-6">
+              Deskripsi
+            </p>
+            <div class="wrapper grid grid-cols-2 gap-4">
+              <div class="card bg-gray-300 px-10 py-2 text-center rounded-lg">
+                <p class="font-bebas font-bold pb-1 text-lg">5g</p>
+                <p class="font-bebas text-base">Creatine</p>
+              </div>
+              <div class="card bg-gray-300 px-10 py-2 text-center rounded-lg">
+                <p class="font-bebas font-bold pb-1 text-lg">60</p>
+                <p class="font-bebas text-base">Sajian</p>
+              </div>
+              <div class="card bg-gray-300 px-10 py-2 text-center rounded-lg">
+                <p class="font-bebas font-bold pb-1 text-lg">300g</p>
+                <p class="font-bebas text-base">Berat Bersih</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="harga-wrap py-10 flex gap-6 items-center border-b border-gray-800 pb-6"
+          >
+            <div class="harga-wrapper flex gap-2 items-center">
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xOSA3aC0xVjZhMyAzIDAgMCAwLTMtM0g1YTMgMyAwIDAgMC0zIDN2MTJhMyAzIDAgMCAwIDMgM2gxNGEzIDMgMCAwIDAgMy0zdi04YTMgMyAwIDAgMC0zLTNNNSA1aDEwYTEgMSAwIDAgMSAxIDF2MUg1YTEgMSAwIDAgMSAwLTJtMTUgMTBoLTFhMSAxIDAgMCAxIDAtMmgxWm0wLTRoLTFhMyAzIDAgMCAwIDAgNmgxdjFhMSAxIDAgMCAxLTEgMUg1YTEgMSAwIDAgMS0xLTFWOC44M0EzIDMgMCAwIDAgNSA5aDE0YTEgMSAwIDAgMSAxIDFaIi8+PC9zdmc+"
+                alt=""
+                class="w-10"
+              />
+              <p class="font-bebas font-bold text-xl">Rp.100.000</p>
+            </div>
+            <div class="diskon-wrap flex gap-2 items-center">
+              <p class="line-through font-bebas text-gray-400 text-sm">
+                Rp.200.000
+              </p>
+              <p class="font-semibold text-yellow-500">Diskon 50%</p>
+            </div>
+          </div>
+          <div class="beli pt-10">
+            <a
+              href="#"
+              class="flex gap-3 font-semibold bg-black text-white px-6 py-4 w-full rounded-lg hover:shadow-xl hover:scale-105 transition-all"
+            >
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTcgMThhMiAyIDAgMCAxIDIgMmEyIDIgMCAwIDEtMiAyYTIgMiAwIDAgMS0yLTJjMC0xLjExLjg5LTIgMi0yTTEgMmgzLjI3bC45NCAySDIwYTEgMSAwIDAgMSAxIDFjMCAuMTctLjA1LjM0LS4xMi41bC0zLjU4IDYuNDdjLS4zNC42MS0xIDEuMDMtMS43NSAxLjAzSDguMWwtLjkgMS42M2wtLjAzLjEyYS4yNS4yNSAwIDAgMCAuMjUuMjVIMTl2Mkg3YTIgMiAwIDAgMS0yLTJjMC0uMzUuMDktLjY4LjI0LS45NmwxLjM2LTIuNDVMMyA0SDF6bTYgMTZhMiAyIDAgMCAxIDIgMmEyIDIgMCAwIDEtMiAyYTIgMiAwIDAgMS0yLTJjMC0xLjExLjg5LTIgMi0ybTktN2wyLjc4LTVINi4xNGwyLjM2IDV6Ii8+PC9zdmc+"
+                alt=""
+              />Beli Sekarang
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-slate-200 w-full mt-10 md:mt-0">
+      <p class="font-bebas font-bold pt-10 px-6">Produk Lainnya</p>
+      <div
+        class="wrap grid grid-cols-2 md:grid-cols-4 py-10 lg:px-6 px-4 bg-slate-200 rounded-lg gap-4"
+      >
+        <a
+          href="evowhey.html"
+          target="_blank"
+          class="hover:scale-105 transition-all duration-200 hover:shadow-2xl shadow-gray-600"
+        >
+          <div class="card bg-white px-4 py-8 shadow-lg rounded-lg">
+            <img
+              src="img/protein.webp"
+              class="w-full h-auto bg-slate-50 border border-gray-300 rounded-md"
+              alt=""
+            />
+            <div class="text-wrap w-full">
+              <p class="font-bebas text-gray-600 text-lg pt-4 pb-2">Evowhey</p>
+              <div
+                class="wrap flex flex-col md:flex-row gap-2 items-start lg:items-end"
+              >
+                <p class="font-bebas text-gray-500 text-sm line-through">
+                  Rp.200.000
+                </p>
+                <p class="font-bebas text-black text-base font-bold">
+                  Rp.100.000
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="evogreen.html"
+          target="_blank"
+          class="hover:scale-105 transition-all duration-200 hover:shadow-2xl shadow-gray-600"
+        >
+          <div class="card bg-white px-4 py-8 shadow-lg rounded-lg">
+            <img
+              src="img/evo-green.webp"
+              class="w-full h-auto border border-gray-300 rounded-md"
+              alt=""
+            />
+            <div class="text-wrap w-full">
+              <p class="font-bebas text-gray-600 text-lg pt-4 pb-2">Evogreen</p>
+              <div
+                class="wrap flex flex-col md:flex-row gap-2 items-start lg:items-end"
+              >
+                <p class="font-bebas text-gray-500 text-sm line-through">
+                  Rp.200.000
+                </p>
+                <p class="font-bebas text-black text-base font-bold">
+                  Rp.100.000
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="bcaa.html"
+          target="_blank"
+          class="hover:scale-105 transition-all duration-200 hover:shadow-2xl shadow-gray-600"
+        >
+          <div class="card bg-white px-4 py-8 shadow-lg rounded-lg">
+            <img
+              src="img/bcaa.webp"
+              class="w-full h-auto border border-gray-300 rounded-md"
+              alt=""
+            />
+            <div class="text-wrap w-full">
+              <p class="font-bebas text-gray-600 text-lg pt-4 pb-2">
+                Evolene BCAA
+              </p>
+              <div
+                class="wrap flex flex-col md:flex-row gap-2 items-start lg:items-end"
+              >
+                <p class="font-bebas text-gray-500 text-sm line-through">
+                  Rp.200.000
+                </p>
+                <p class="font-bebas text-black text-base font-bold">
+                  Rp.100.000
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
